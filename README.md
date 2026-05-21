@@ -1,4 +1,4 @@
-# Apotheotic's Shadow Walker
+# Shadow Walker
 
 Standalone Forge 1.20.1 mod containing the stealth awareness and sneak attack mechanics extracted from Thu'umcraft.
 
@@ -8,21 +8,23 @@ Standalone Forge 1.20.1 mod containing the stealth awareness and sneak attack me
 - Sneaking players can avoid hostile mob target acquisition while undetected.
 - Synced stealth eye indicator with hidden, suspicious, searching, and detected states.
 - Detection rises through the awareness cycle instead of snapping straight to detected.
-- Synced `apotheotics_shadow_walker:sneak` player attribute for per-player stealth scaling. Players start at 0, and the attribute maximum is 100.
+- Synced `shadow_walker:sneak` player attribute for per-player stealth scaling. Players start at 0, and the attribute maximum is 100.
 - Shadow Walker armor enchantment, with one level and +20 Sneak per enchanted armor piece.
 - Configurable melee, one-handed, dagger, and ranged sneak attack multipliers.
 - Sneak attack particles, feedback messages, and attack noise.
 
 ## Configuration
 
-The common config is generated at `config/apotheotics_shadow_walker-common.toml`.
+The common config is generated at `config/shadow_walker-common.toml`.
 
 Important options:
 
 - `enableStealthSystem`: master switch for stealth awareness, targeting suppression, and sneak attacks.
 - `showStealthCrosshair`: toggles the stealth eye overlay.
+- `showDetectionExclamationMarks`: toggles the red exclamation marker above mobs that have detected the player.
+- `detectionExclamationMarkScale`: controls the world-space size of the detection marker.
 - `removeInvisibilityOnAttack`: removes vanilla invisibility from players after they damage another entity. Defaults to true.
-- `sneakLevel`: global stealth proficiency from 0 to 100. This stacks with the player's `apotheotics_shadow_walker:sneak` attribute, which starts at 0 and is capped at 100.
+- `sneakLevel`: global stealth proficiency from 0 to 100. This stacks with the player's `shadow_walker:sneak` attribute, which starts at 0 and is capped at 100.
 - `maxScanRange`: upper bound for mob awareness scans.
 - `crosshairDetectionRange`: radius, in blocks, where detected mobs can affect the stealth eye. Defaults to 24.
 - `armorNoiseMultiplier`: controls how much armor contributes to sneak noise.
@@ -33,11 +35,11 @@ Important options:
 
 - Ranged sneak attacks use Minecraft damage types tagged as projectiles.
 - Melee sneak attacks happen when the direct damage entity is the attacking player.
-- Daggers use the `apotheotics_shadow_walker:daggers` item tag, with a fallback for item registry paths containing `dagger`.
+- Daggers use the `shadow_walker:daggers` item tag, with a fallback for item registry paths containing `dagger`.
 - One-handed melee weapons are non-heavy `SwordItem`, `AxeItem`, `TridentItem`, or other `TieredItem` instances.
 - Heavy melee weapons are detected by registry paths containing `greatsword`, `battleaxe`, `warhammer`, `claymore`, `halberd`, `glaive`, or `scythe`.
 
-The dagger tag lives at `src/main/resources/data/apotheotics_shadow_walker/tags/items/daggers.json`.
+The dagger tag lives at `src/main/resources/data/shadow_walker/tags/items/daggers.json`.
 
 To generate dagger tag entries from item ids, resource roots, or mod jars:
 
