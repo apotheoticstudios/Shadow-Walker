@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="apotheotics_shadow_walker"
+version="1.0.0-1.20.1"
+displayName="Apotheotic's Shadow Walker"
+authors="Apotheotic Studios"
+credits="sneak_detected icon: Cloak and Dagger mod"
+description='''Standalone Skyrim-style stealth awareness and sneak attack mechanics.'''
+
+[[dependencies.apotheotics_shadow_walker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.apotheotics_shadow_walker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

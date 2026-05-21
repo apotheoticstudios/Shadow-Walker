@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2766e81b-134a-4cc4-bb23-6770e3639917" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/generate_dagger_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/ModAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/ModEnchantments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/ShadowWalkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/client/ClientSneakAwarenessState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/client/StealthCrosshairClientEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/enchantment/ShadowWalkerEnchantmentEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/network/ClientboundSneakAwarenessPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/network/ModMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/stealth/SneakAwareness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/stealth/SneakAwarenessEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/apotheoticstudios/shadowwalker/stealth/StealthMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/apotheotics_shadow_walker/tags/items/daggers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/generated/resources/data/thuumcraft/recipes/handle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/Thuumcraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/block/ModBlocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/compat/JEIThuumcraftPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/DataGenerators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/ModBlockStateProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/ModBlockTagGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/ModItemModelProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/ModItemTagGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/ModLootTableProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/ModRecipeProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/ModWorldGenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/datagen/loot/ModBlockLootTables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/entity/ModEntities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/entity/ai/DraugrAttackGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/entity/animations/ModAnimationDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/entity/client/DraugrModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/entity/client/DraugrRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/entity/client/ModModelLayers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/entity/custom/DraugrEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/event/ModEventBusClientEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/event/ModEventBusEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/item/ModCreativeModeTabs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/item/ModFoods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/item/ModItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/item/ModToolTiers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/util/ModTags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/worldgen/ModBiomeModifiers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/worldgen/ModConfiguredFeatures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/worldgen/ModOrePlacement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/apotheoticstudios/thuumcraft/worldgen/ModPlacedFeatures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/mods.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/lang/en_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/block/corundum_ore_vein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/block/deepslate_corundum_ore_vein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/block/deepslate_malachite_ore_vein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/block/malachite_ore_vein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/block/refined_malachite_block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/entity/draugr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/corundum_ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/corundum_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/dwarven_metal_ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/dwarven_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/dwarven_war_axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/ebony_ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/ebony_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/glass_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/glass_war_axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/juniper_berries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/leather_strips.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/malachite_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/moonstone_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/orichalcum_ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/orichalcum_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/refined_malachite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/refined_moonstone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/silver_ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/silver_ore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/steel_ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/thuumcraft/textures/item/steel_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/pack.mcmeta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="115" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ApotheoticsShadowWalker" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ApotheoticsShadowWalker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ApotheoticsShadowWalker" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;apotheoticstudios&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/apotheoticstudios/Thuumcraft.git&quot;,
+    &quot;accountId&quot;: &quot;e6c448ff-1cbc-4ee1-bfd7-5ec2d9e53a8b&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3DyyCdUCOj8cW87vLThhkuTRAdM" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.ApotheoticsShadowWalker [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApotheoticsShadowWalker [createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApotheoticsShadowWalker [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApotheoticsShadowWalker [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApotheoticsShadowWalker [runData].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.ApotheoticsShadowWalker [runClient]">
+    <configuration name="ApotheoticsShadowWalker [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApotheoticsShadowWalker [runData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runData" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ApotheoticsShadowWalker.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ApotheoticsShadowWalker.main" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ApotheoticsShadowWalker [runClient]" />
+        <item itemvalue="Gradle.ApotheoticsShadowWalker [runData]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2766e81b-134a-4cc4-bb23-6770e3639917" name="Changes" comment="" />
+      <created>1779317860018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779317860018</updated>
+    </task>
+    <servers />
+  </component>
+</project>
