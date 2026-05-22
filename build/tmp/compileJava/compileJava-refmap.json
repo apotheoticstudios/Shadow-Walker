@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/apotheoticstudios/mixin/PlayerMixin": {
+      "isStayingOnGroundSurface": "Lnet/minecraft/world/entity/player/Player;m_36343_()Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/apotheoticstudios/mixin/PlayerMixin": {
+        "isStayingOnGroundSurface": "Lnet/minecraft/world/entity/player/Player;m_36343_()Z"
+      }
+    }
+  }
+}

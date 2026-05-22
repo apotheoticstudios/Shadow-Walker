@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.apotheoticstudios.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "shadow_walker.refmap.json",
+  "mixins": [
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

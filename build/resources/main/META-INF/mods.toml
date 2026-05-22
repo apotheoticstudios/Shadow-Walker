@@ -2,9 +2,12 @@ modLoader="javafml"
 loaderVersion="[47,)"
 license="All Rights Reserved"
 
+[[mixins]]
+    config="shadow_walker.mixins.json"
+
 [[mods]]
 modId="shadow_walker"
-version="1.0-1.20.1"
+version="1.2-1.20.1"
 displayName="Shadow Walker"
 authors="Apotheotic Studios"
 credits="sneak_detected icon: Cloak and Dagger mod"
